@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import { useState } from "react";
 import { useRouter } from "next/router";
-
+declare var window: any
 const Home: NextPage = () => {
   const router = useRouter();
   const [walletAddress, setWalletAddress] = useState("");
