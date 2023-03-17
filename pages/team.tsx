@@ -5,7 +5,7 @@ import { Theme, Button } from 'react-daisyui'
     const [showModal, setShowModal] = useState(false);
     return (
         <Theme dataTheme="synthwave">
-        <div className="font-poppins bg-black">
+        <div className="font-poppins bg-black h-screen">
         {/* <div className="font-poppins ml-20">
             <p className="font-black text-2xl pt-2">GNOD</p>
         </div> */}
